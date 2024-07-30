@@ -17,7 +17,7 @@ cred = credentials.Certificate(r'C:\Users\shikh\Downloads\flight-status-c32a4-fi
 firebase_admin.initialize_app(cred)
 
 with app.app_context():
-    db.create_all()  # Create database tables
+    db.create_all()  
 
 app.register_blueprint(main_routes)
 

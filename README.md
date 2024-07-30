@@ -18,6 +18,9 @@ The Flight Status Application is a web-based platform that allows users to view 
   3. Edit Flight Status:
      - An edit button allows authorized users to update the status of a flight. This includes changing the status to Delayed .
      - The application provides a user-friendly interface statuses.
+  4. Flight Booking:
+     - Users can book a flight by selecting a flight ID and entering their name and required details.
+     - Upon successful booking, the application stores the passenger's information in the database, including their notification token for future updates.
 
 -->Technical Architecture
   1. Backend:

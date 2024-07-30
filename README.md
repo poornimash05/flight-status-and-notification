@@ -1,6 +1,6 @@
 <-----Flight Status and Notification Application Overview------->
 
-The Flight Status Application is a web-based platform that allows users to view flight statuses, book flights, and receive real-time updates about their bookings. The application is built using a Flask backend and a React frontend, leveraging Firebase Cloud Messaging for notifications.
+The Flight Status Application is a web-based platform that allows users to view flight status, edit flight status, and receive real-time updates about their bookings. The application is built using a Flask backend and a React frontend, leveraging Firebase Cloud Messaging for notifications.
 
 -->Technologies used: 
    (a) Frontend: HTML, CSS, React js.
@@ -18,3 +18,13 @@ The Flight Status Application is a web-based platform that allows users to view 
   3. Edit Flight Status:
      - An edit button allows authorized users to update the status of a flight. This includes changing the status to Delayed .
      - The application provides a user-friendly interface statuses.
+
+-->Technical Architecture
+  1. Backend:
+     - Built using Flask, the backend handles API requests for fetching flight status, editing , and updating flight information.
+     - SQLAlchemy is used for ORM (Object-Relational Mapping) to interact with the PostgreSQL database, which stores flight and passenger data.
+     - The backend includes error handling for invalid requests and manages notifications using Firebase Admin SDK.
+  2. Frontend:
+     - Developed with React, the frontend provides a dynamic user interface for interacting with flight data.
+     - The application uses Axios for making HTTP requests to the Flask backend.
+     

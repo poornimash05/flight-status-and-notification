@@ -1,74 +1,20 @@
-<<<<<<< HEAD
-# flight-status-and-notification
-=======
-# Getting Started with Create React App
+<-----Flight Status and Notification Application Overview------->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Flight Status Application is a web-based platform that allows users to view flight statuses, book flights, and receive real-time updates about their bookings. The application is built using a Flask backend and a React frontend, leveraging Firebase Cloud Messaging for notifications.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> c71656f6 (first commit)
+-->Technologies used: 
+   (a) Frontend: HTML, CSS, React js.
+   (b) Backend: Python.
+   (c) Database: PostgreSQL.
+   (d) Notifications: Firebase Cloud Messaging.
+   
+-->Key Features
+  1. Flight Status Display:
+     - Users can view a list of available flights along with their current statuses (e.g., On Time, Delayed, Cancelled).
+     - Each flight entry includes details such as the flight number, current status, and gate number.
+  2. Real-Time Notifications:
+     - The application integrates Firebase Cloud Messaging (FCM) to send real-time notifications to passengers regarding flight status updates and gate changes.
+     - Notifications are sent when the flight status changes (e.g., from On Time to Delayed) or when there is a gate change.
+  3. Edit Flight Status:
+     - An edit button allows authorized users to update the status of a flight. This includes changing the status to Delayed .
+     - The application provides a user-friendly interface statuses.
